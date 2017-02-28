@@ -1,0 +1,66 @@
+<!DocType html>
+<html>
+<head>
+    <title>A web page</title>
+    <meta name="some page" content="bah blah blah">
+
+</head>
+<body>
+
+<img src="https://lh4.googleusercontent.com/-y1S3nyaeXic/AAAAAAAAAAI/AAAAAAAAACk/qu1Rjuwm7WY/photo.jpg" width="20%">
+<font size = "+2">  <p style="color:rgb(255,0,0);">Nicholas Frohberg's Webpage for Surviving the Week</p> </font>
+
+<br>
+<font size = "-1">
+<h1>
+What Day is It?
+</h1>
+
+<INPUT TYPE="radio" NAME="day" VALUE="n">Sunday
+<INPUT TYPE="radio" NAME="day" VALUE="Monday">Monday
+<INPUT TYPE="radio" NAME="day" VALUE="n">Tuesday
+<INPUT TYPE="radio" NAME="day" VALUE="n">Wednesday
+<INPUT TYPE="radio" NAME="day" VALUE="n">Thursday
+<INPUT TYPE="radio" NAME="day" VALUE="n">Friday
+<INPUT TYPE="radio" NAME="day" VALUE="n">Saturday
+<div>
+<div>
+
+<br>
+<br>
+
+<STRONG>Please pick two of three </STRONG>: <br>
+<label><input type="checkbox" id="cbox1" value="first_checkbox">1. Sleep
+ </label><br>
+
+<input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">2. Eat</label>
+<br>
+<input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">3. Study</label>
+</div>
+</div>
+<br> <br> <br>
+<div style="height: 100px">
+<b>Please expect: </b> <br>
+<ul style="list-style-type:disc"> <li>Death</li> <br> <li>Taxes</li> <br> </ul>
+
+
+
+</div>
+<font size = "+1"><p style="color:rgb(255,0,255);""> <i>Please</i> give yourself some <b>sanity.</b></p>
+Sanity: <input type="number" id="myNumber">
+
+<button onclick="myFunction()">+</button>
+<button onclick="myFunctions()">-</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myNumber").stepUp(1);
+}
+</script>
+<script>
+function myFunctions() {
+    document.getElementById("myNumber").stepUp(-1);
+}
+</script>
+</body>
+</html>
